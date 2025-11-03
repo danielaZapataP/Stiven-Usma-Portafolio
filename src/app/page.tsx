@@ -241,12 +241,12 @@ export default function Home() {
       </section>
 
       <div className="flex justify-center my-12">
-        <iframe
-          src="/portafolio.pdf#toolbar=0&navpanes=0&scrollbar=0&statusbar=0&messages=0&scrollbar=0"
-          width="80%"
-          height="800"
-          className="border border-[#2a3036]/20 rounded-lg shadow-lg"
-        ></iframe>
+        <a
+          href="/portfolio"
+          className="border border-[#2a3036] px-8 py-3 text-sm font-bold hover:bg-[#2a3036] hover:text-white transition-colors italic"
+        >
+          View Full Portfolio (PDF)
+        </a>
       </div>
 
       {/* Book Me Now */}
