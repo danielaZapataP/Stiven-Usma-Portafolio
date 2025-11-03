@@ -242,7 +242,9 @@ export default function Home() {
 
       <div className="flex justify-center my-12">
         <a
-          href="/portfolio"
+          href="/portafolio.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           className="border border-[#2a3036] px-8 py-3 text-sm font-bold hover:bg-[#2a3036] hover:text-white transition-colors italic"
         >
           View Full Portfolio (PDF)
